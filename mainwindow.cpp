@@ -270,6 +270,7 @@ void MainWindow::on_pushButton_Sqrt_clicked()
     ui->label->setText("0");
 }
 
+
 // Menu
 
 void MainWindow::on_actionAbout_triggered()
@@ -278,5 +279,6 @@ void MainWindow::on_actionAbout_triggered()
     msg.setText("Simple Calculator by Ali Rabiei\n\nVersion 1.0\nDate: May 4, 2023");
     msg.exec();
 }
+
 
 // End
